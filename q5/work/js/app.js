@@ -5,6 +5,6 @@ $(function(){
     $(".dropdwn_menu", this).stop().slideDown();
   },function(){
     //ホバーしないときはドロップダウンメニューをスライドしつつ非表示にする
-    $(".dropdwn_menu",this).slideUp();
+    $(".dropdwn_menu",this).stop().slideUp();
     });
 });
